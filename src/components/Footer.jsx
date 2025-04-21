@@ -2,23 +2,27 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import Link from 'next/link';
 
 const FooterContainer = styled.footer`
   width: 100%;
-  padding: 0 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: 'Spartan', sans-serif;
 `;
 
-const FooterNav = styled.div`
-  width: 100%;
-  padding: 25px 0;
+const FooterNav = styled.nav`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 25px;
+  gap: 20px;
+
   @media (max-width: 768px) {
-    padding: 20px 10px;
-    /* background-color: #f5f5f5; */
-    border-radius: 8px;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
   }
 `;
 
@@ -29,62 +33,56 @@ const NavLinks = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
 
   @media (max-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px 15px;
-    width: 100%;
+    gap: 12px 18px;
   }
 `;
 
-const NavItem = styled.li`
-  margin: 0;
+const NavItem = styled.li``;
 
-  @media (max-width: 768px) {
-    margin: 0;
-    border: none;
-    width: auto;
-  }
-`;
-
-const NavLink = styled.a`
+const StyledLink = styled(Link)`
   color: #ba0a02;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
 
   &:hover {
+    color: #ff4136;
     text-decoration: underline;
-    color: #990902;
   }
 
   @media (max-width: 768px) {
-    display: inline-block;
     padding: 8px 12px;
     font-size: 14px;
-    background-color: white;
-    border-radius: 16px;
-    /* border: 1px solid #e0e0e0; */
+    border-radius: 20px;
+    background-color: #fff;
+    color: #ba0a02;
 
     &:hover {
-      background-color: rgba(186, 10, 2, 0.05);
+      background-color: rgba(186, 10, 2, 0.1);
     }
   }
 `;
+
+const Divider = styled.hr`
+  border: 0;
+  height: 1px;
+  background: #333;
+  margin: 0 auto 20px;
+  width: 80%;
+`;
+
 const Copyright = styled.div`
   text-align: center;
-  padding: 25px 0;
-  font-size: 15px;
-  color: #555;
-  line-height: 1.6;
+  font-size: 14px;
+  color: #aaa;
 
   @media (max-width: 768px) {
-    padding: 20px 0;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 10px 0;
   }
 `;
 
@@ -94,28 +92,28 @@ const Footer = () => {
       <FooterNav>
         <NavLinks>
           <NavItem>
-            <NavLink href='#'>About Us</NavLink>
+            <StyledLink href='/about'>About Us</StyledLink>
           </NavItem>
           <NavItem>
-            <NavLink href='#'>Service Areas</NavLink>
-          </NavItem>
-
-          <NavItem>
-            <NavLink href='#'>Contact Us</NavLink>
+            <StyledLink href='/services'>Service Areas</StyledLink>
           </NavItem>
           <NavItem>
-            <NavLink href='#'>Terms of Use</NavLink>
+            <StyledLink href='/contact'>Contact Us</StyledLink>
           </NavItem>
           <NavItem>
-            <NavLink href='#'>Privacy Policy</NavLink>
+            <StyledLink href='#'>Terms of Use</StyledLink>
+          </NavItem>
+          <NavItem>
+            <StyledLink href='#'>Privacy Policy</StyledLink>
           </NavItem>
         </NavLinks>
       </FooterNav>
 
-      <Copyright>
-        Copyright © 2025 KR LAW GROUP - All rights reserved.
-      </Copyright>
+      <Divider />
+
+      <Copyright>© 2025 KR LAW GROUP – All rights reserved.</Copyright>
     </FooterContainer>
   );
 };
+
 export default Footer;

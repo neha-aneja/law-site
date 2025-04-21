@@ -10,6 +10,10 @@ const Container = styled.main`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 const Section = styled.section`
@@ -19,22 +23,45 @@ const Section = styled.section`
 const Heading = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
+    text-align: center;
+  }
 `;
 
 const Subheading = styled.h2`
   font-size: 3rem;
   margin: 2rem 0 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+    text-align: center;
+  }
 `;
 
 const Paragraph = styled.p`
   font-size: 1.5rem;
   line-height: 1.7;
   margin-top: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
 `;
 
 const ImageWrapper = styled.div`
   margin-top: 1.5rem;
-  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
 `;
 
 export default function AboutContent() {
@@ -59,9 +86,10 @@ export default function AboutContent() {
           <Image
             src='/law-site-images/law-site-people-image.jpg'
             alt='Our experienced legal team'
-            width={900}
-            height={350}
-            style={{ borderRadius: '12px' }}
+            width={1200}
+            height={500}
+            style={{ width: '100%', height: 'auto' }}
+            priority
           />
         </ImageWrapper>
       </Section>
@@ -133,9 +161,10 @@ export default function AboutContent() {
           <Image
             src='/law-site-images/law-site-legal-image.jpg'
             alt='Legal education and community outreach'
-            width={900}
-            height={350}
-            style={{ borderRadius: '12px' }}
+            width={1200}
+            height={500}
+            style={{ width: '100%', height: 'auto' }}
+            priority
           />
         </ImageWrapper>
       </Section>

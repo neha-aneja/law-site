@@ -3,38 +3,54 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 const Container = styled.main`
-  padding: 3rem;
+  padding: 3rem 2rem;
   background-color: #f8f9fa;
   color: #001f3f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 const Section = styled.section`
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 `;
 
 const Heading = styled.h1`
-  font-size: 3.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
   margin-bottom: 1rem;
+  text-align: center;
 `;
 
 const Subheading = styled.h2`
-  font-size: 3rem;
+  font-size: clamp(1.8rem, 4vw, 3rem);
   margin: 2rem 0 1rem;
+  text-align: center;
 `;
 
 const Paragraph = styled.p`
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 1rem;
 `;
 
 const ImageWrapper = styled.div`
-  margin-top: 1rem;
-  max-width: 900px;
-  height: auto;
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    max-width: 1200px;
+  }
 `;
 
 const List = styled.ul`
@@ -43,7 +59,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   margin-bottom: 0.5rem;
 `;
 
@@ -51,9 +67,10 @@ const TestimonialBox = styled.div`
   background: #fff;
   padding: 1.5rem;
   border-left: 5px solid #001f3f;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-size: clamp(1rem, 2vw, 1.3rem);
 `;
 
 export default function HomeContent() {
@@ -75,9 +92,9 @@ export default function HomeContent() {
           <Image
             src='/law-site-images/law-site-banner-image.jpg'
             alt='Professional law firm office'
-            width={900}
-            height={350}
-            style={{ borderRadius: '12px' }}
+            width={1200}
+            height={500}
+            priority
           />
         </ImageWrapper>
       </Section>
@@ -99,9 +116,8 @@ export default function HomeContent() {
           <Image
             src='/law-site-images/law-site-service-image.jpg'
             alt='Law firm services'
-            width={900}
-            height={350}
-            style={{ borderRadius: '12px' }}
+            width={1200}
+            height={500}
           />
         </ImageWrapper>
       </Section>

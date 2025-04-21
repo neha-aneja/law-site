@@ -1,26 +1,6 @@
 'use client';
 import styled from 'styled-components';
 
-// const Container = styled.main`
-//   padding: 3rem;
-//   max-width: 1500px;
-//   margin: 0 auto;
-//   color: #001f3f;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 3rem;
-// `;
-
-// const Container = styled.main`
-//   padding: 3rem;
-//   background-color: #f4f7fa;
-//   min-height: 100vh;
-//   color: #001f3f;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 2rem;
-// `;
-
 const Container = styled.main`
   padding: 3rem;
   background-color: #f8f9fa;
@@ -29,12 +9,20 @@ const Container = styled.main`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 const Heading = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 1rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem;
+  }
 `;
 
 const TopSection = styled.div`
@@ -42,16 +30,29 @@ const TopSection = styled.div`
   gap: 2rem;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 `;
 
 const ContactDetails = styled.div`
   flex: 1;
   min-width: 300px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const Info = styled.p`
   font-size: 1.5rem;
   margin-bottom: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
 `;
 
 const MapWrapper = styled.div`
@@ -65,6 +66,12 @@ const MapWrapper = styled.div`
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
+
+  @media (max-width: 768px) {
+    iframe {
+      height: 250px;
+    }
+  }
 `;
 
 const FormWrapper = styled.div`
@@ -75,12 +82,21 @@ const FormWrapper = styled.div`
   max-width: 1100px;
   width: 500px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 1.8rem 1.2rem;
+  }
 `;
 
 const Subheading = styled.h2`
   font-size: 3rem;
   margin-bottom: 1.5rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem;
+  }
 `;
 
 const Form = styled.form`
@@ -104,6 +120,11 @@ const Input = styled.input`
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 1rem;
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
 `;
 
 const TextArea = styled.textarea`
@@ -113,6 +134,11 @@ const TextArea = styled.textarea`
   font-size: 1rem;
   min-height: 120px;
   resize: vertical;
+
+  @media (max-width: 768px) {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
 `;
 
 const Button = styled.button`
@@ -127,6 +153,11 @@ const Button = styled.button`
 
   &:hover {
     background-color: #003366;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8rem;
+    font-size: 1rem;
   }
 `;
 

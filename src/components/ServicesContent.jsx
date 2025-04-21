@@ -2,24 +2,18 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 
-// const Container = styled.main`
-//   padding: 3rem;
-//   background-color: #f4f7fa;
-//   color: #001f3f;
-//   min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 3rem;
-// `;
-
 const Container = styled.main`
-  padding: 3rem;
+  padding: 3rem 2rem;
   background-color: #f8f9fa;
   color: #001f3f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+  }
 `;
 
 const Section = styled.section`
@@ -37,27 +31,40 @@ const Section = styled.section`
 
 const TextContent = styled.div`
   flex: 1;
+  min-width: 300px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 const Heading = styled.h1`
-  font-size: 3.5rem;
-  margin-bottom: 1.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 2rem;
+  text-align: center;
 `;
 
 const Subheading = styled.h2`
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin-bottom: 1rem;
 `;
 
 const Paragraph = styled.p`
-  font-size: 1.5rem;
-  margin-bottom: 1.7rem;
-  line-height: 1.6;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  text-align: justify;
 `;
 
 const ImageWrapper = styled.div`
   flex: 1;
   min-width: 300px;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
 `;
 
 export default function ServicesContent() {
@@ -85,7 +92,7 @@ export default function ServicesContent() {
             alt='Injury law services'
             width={600}
             height={400}
-            style={{ borderRadius: '12px' }}
+            priority
           />
         </ImageWrapper>
       </Section>
@@ -109,7 +116,6 @@ export default function ServicesContent() {
             alt='Family legal support'
             width={600}
             height={400}
-            style={{ borderRadius: '12px' }}
           />
         </ImageWrapper>
       </Section>
@@ -133,7 +139,6 @@ export default function ServicesContent() {
             alt='Corporate law advice'
             width={600}
             height={400}
-            style={{ borderRadius: '12px' }}
           />
         </ImageWrapper>
       </Section>
@@ -156,7 +161,6 @@ export default function ServicesContent() {
             alt='Estate planning services'
             width={600}
             height={400}
-            style={{ borderRadius: '12px' }}
           />
         </ImageWrapper>
       </Section>
