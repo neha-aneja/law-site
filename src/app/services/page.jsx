@@ -1,4 +1,4 @@
-import ServicesContent from '@/components/ServicesContent';
+import ServicesContent from '../../components/ServicesContent';
 
 export const metadata = {
   title: 'Legal Services | Lex & Justice',

@@ -1,4 +1,4 @@
-import ContactContent from '@/components/ContactContent';
+import ContactContent from '../../components/ContactContent';
 
 export const metadata = {
   title: 'Contact Us | Lex & Justice',

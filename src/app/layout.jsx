@@ -1,6 +1,7 @@
 // src/app/layout.js
 import StyledComponentsRegistry from '../lib/registry';
-import Navigation from '../components/Navigation';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export const metadata = {
   title: 'Lex & Justice Legal Firm',
@@ -13,8 +14,9 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body>
         <StyledComponentsRegistry>
-          <Navigation />
+          <Header />
           {children}
+          <Footer />
         </StyledComponentsRegistry>
       </body>
     </html>
