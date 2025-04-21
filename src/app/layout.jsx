@@ -4,9 +4,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Lex & Justice Legal Firm',
+  title: 'Law & Justice Legal Firm',
   description:
-    'Trusted legal advisors providing top-tier representation in California.',
+    'Trusted legal advisors providing top-tier representation in India.',
 };
 
 export default function RootLayout({ children }) {

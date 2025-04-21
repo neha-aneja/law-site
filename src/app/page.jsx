@@ -1,9 +1,9 @@
 import HomeContent from '../components/HomeContent';
 
 export const metadata = {
-  title: 'Home | Lex & Justice',
+  title: 'Home | Law & Justice',
   description:
-    'Premier California law firm for personal injury, family, and corporate law.',
+    'Premier Indian law firm for personal injury, family, and corporate law.',
 };
 
 export default function HomePage() {

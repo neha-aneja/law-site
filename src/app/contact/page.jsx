@@ -1,7 +1,7 @@
 import ContactContent from '../../components/ContactContent';
 
 export const metadata = {
-  title: 'Contact Us | Lex & Justice',
+  title: 'Contact Us | Law & Justice',
   description:
     'Get in touch with our attorneys to schedule your legal consultation today.',
 };
