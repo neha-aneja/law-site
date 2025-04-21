@@ -58,9 +58,10 @@ const ImageWrapper = styled.div`
   justify-content: center;
 
   img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 12px;
+    max-width: 1200px;
   }
 `;
 
