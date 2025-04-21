@@ -111,7 +111,7 @@ const Footer = () => {
 
       <Divider />
 
-      <Copyright>© 2025 KR LAW GROUP – All rights reserved.</Copyright>
+      <Copyright>© 2025 Law & Justice – All rights reserved.</Copyright>
     </FooterContainer>
   );
 };
