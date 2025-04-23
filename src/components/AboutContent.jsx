@@ -69,24 +69,29 @@ export default function AboutContent() {
   return (
     <Container>
       <Section>
-        <Heading>About Law & Justice</Heading>
+        <Heading>About Law & Justice – Best Legal Firm in Delhi</Heading>
         <Paragraph>
-          Law & Justice is a Delhi-based legal firm committed to delivering
-          outstanding legal counsel with integrity, expertise, and client focus.
-          Our attorneys bring over two decades of combined legal knowledge
-          across a wide range of disciplines, ensuring that every case is
-          handled with strategy and care.
+          At <strong>Law & Justice</strong>, we are proud to be recognized as
+          the <strong>best legal firm in Delhi</strong>, offering reliable legal
+          advice and representation across multiple domains. With decades of
+          combined experience, our team of expert{' '}
+          <strong>attorneys near you</strong> delivers justice with a personal
+          touch.
         </Paragraph>
         <Paragraph>
-          We aim to simplify complex legal procedures while advocating strongly
-          for your rights. Whether it's a business negotiation or a personal
-          legal issue, our goal is to make legal support more approachable and
-          effective.
+          We handle a wide range of cases—from{' '}
+          <strong>personal injury lawyer services</strong> to{' '}
+          <strong>family law</strong>, <strong>estate planning</strong>, and{' '}
+          <strong>corporate & business law</strong>. Whether you’re searching
+          for a <strong>divorce attorney near me</strong> or a trusted{' '}
+          <strong>criminal defense attorney</strong>, our lawyers are committed
+          to simplifying legal procedures and protecting your rights with
+          unmatched dedication.
         </Paragraph>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-people-image.jpg'
-            alt='Our experienced legal team'
+            alt='Our experienced legal team of attorneys in Delhi'
             width={1200}
             height={500}
             style={{ width: '100%', height: 'auto' }}
@@ -96,72 +101,78 @@ export default function AboutContent() {
       </Section>
 
       <Section>
-        <Subheading>Our Vision</Subheading>
+        <Subheading>Our Vision for Justice</Subheading>
         <Paragraph>
-          We envision a legal ecosystem that empowers individuals, protects
-          rights, and upholds the rule of law without prejudice or complexity.
-          At Law & Justice, our long-term goal is to redefine how people
-          interact with the legal system—by making it more transparent,
-          approachable, and rooted in trust.
+          We believe that legal protection is a right, not a privilege. Our
+          long-term vision is rooted in building a transparent legal ecosystem,
+          where individuals seeking a <strong>family attorney near me</strong>,{' '}
+          <strong>car accident lawyer near me</strong>, or a{' '}
+          <strong>real estate attorney</strong> feel heard, protected, and
+          represented with integrity.
         </Paragraph>
         <Paragraph>
-          Our vision goes beyond winning cases. We aim to be legal partners in
-          every chapter of your life—whether you're launching a business, buying
-          a home, facing personal challenges, or resolving disputes. We want
-          every client to feel informed, secure, and confident when seeking
-          legal advice.
+          As Delhi’s top-rated legal service provider, we are redefining how the
+          public interacts with the law. Our aim is to guide clients through
+          life’s legal challenges—be it <strong>immigration law</strong>,{' '}
+          <strong>civil disputes</strong>, <strong>employment law</strong>, or
+          complex <strong>criminal justice</strong> matters—with empathy and
+          strategic advocacy.
         </Paragraph>
         <Paragraph>
-          As technology reshapes the legal world, we are committed to adopting
-          innovative tools and digital-first solutions that improve access to
-          justice. Our vision includes embracing AI-driven research, secure
-          online consultations, and client-centric communication—all while
-          staying grounded in ethical practice.
-        </Paragraph>
-        <Paragraph>
-          Ultimately, we dream of a society where legal protection is not a
-          privilege but a given. A society where everyone, regardless of
-          background or income, can stand up for their rights—and be heard.
+          We also embrace the future by implementing technology-driven tools
+          such as virtual consultations and AI-powered legal research, enhancing
+          accessibility for those searching for{' '}
+          <strong>injury lawyer near me</strong> or{' '}
+          <strong>legal advice</strong> online.
         </Paragraph>
       </Section>
 
       <Section>
         <Subheading>Our Core Values</Subheading>
         <Paragraph>
-          <strong>Client-Centric Service:</strong> Your goals and needs shape
-          our legal strategies.
+          <strong>Client-Centric Approach:</strong> We customize strategies
+          based on your needs—whether you’re a business owner or looking for a{' '}
+          <strong>divorce lawyer</strong> or{' '}
+          <strong>child custody lawyer</strong>.
         </Paragraph>
         <Paragraph>
-          <strong>Ethical Integrity:</strong> We uphold the highest standards of
-          professionalism and honesty.
+          <strong>Uncompromised Integrity:</strong> Our attorneys operate with
+          professionalism and honesty, trusted by clients seeking{' '}
+          <strong>civil lawyer near me</strong> and{' '}
+          <strong>medical lawyer</strong> support.
         </Paragraph>
         <Paragraph>
-          <strong>Strategic Advocacy:</strong> Every case is backed by deep
-          research and tactical representation.
+          <strong>Research-Driven Advocacy:</strong> Every case—be it tax
+          disputes or criminal defense—is backed by meticulous legal research
+          and preparation.
         </Paragraph>
         <Paragraph>
-          <strong>Accessible Expertise:</strong> We believe legal help should be
-          within reach for everyone.
+          <strong>Affordable Expertise:</strong> We strive to be accessible for
+          all, including those searching for{' '}
+          <strong>personal injury lawyer near me</strong>,{' '}
+          <strong>tax attorney</strong>, or{' '}
+          <strong>immigration lawyer near me</strong>.
         </Paragraph>
       </Section>
 
       <Section>
         <Subheading>Building Trust Through Community</Subheading>
         <Paragraph>
-          Beyond the courtroom, we believe in contributing to the legal literacy
-          and empowerment of our community. Through pro bono initiatives, legal
-          aid workshops, and educational events, we strive to make legal
-          knowledge accessible to all.
+          Our commitment to justice goes beyond the courtroom. We host legal
+          workshops, offer pro bono aid, and create outreach programs to improve
+          legal literacy—supporting those seeking{' '}
+          <strong>lawyers near me</strong> for urgent legal support.
         </Paragraph>
         <Paragraph>
-          Trust isn't just earned through verdicts—it's built through
-          compassion, service, and continuous support. Law & Justice stands as a
-          pillar for those seeking not just legal victories, but peace of mind.
+          Whether you need a <strong>divorce lawyers near me</strong>{' '}
+          consultation or representation from a reliable{' '}
+          <strong>car accident attorney near me</strong>, we are here to serve
+          you with empathy, clarity, and excellence.
         </Paragraph>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-legal-image.jpg'
-            alt='Legal education and community outreach'
+            alt='Legal education and outreach events hosted by Law & Justice'
             width={1200}
             height={500}
             style={{ width: '100%', height: 'auto' }}

@@ -164,7 +164,7 @@ const Button = styled.button`
 export default function ContactContent() {
   return (
     <Container>
-      <Heading>Contact Us</Heading>
+      <Heading>Contact the Best Lawyers in Delhi</Heading>
 
       <TopSection>
         <ContactDetails>
@@ -172,8 +172,18 @@ export default function ContactContent() {
           <Info>📞 +91 9876543210</Info>
           <Info>📧 contact@lawjusticefirm.com</Info>
           <Info>
-            We typically respond within 24 hours. Please schedule an appointment
-            before visiting.
+            As a <strong>top-rated law firm</strong> in Delhi, we specialize in{' '}
+            <strong>personal injury law</strong>, <strong>family law</strong>,{' '}
+            <strong>corporate & business law</strong>, and{' '}
+            <strong>estate planning</strong>. Our team includes experienced{' '}
+            <strong>divorce lawyers</strong>, <strong>injury lawyers</strong>,
+            and <strong>criminal defense attorneys</strong>.
+          </Info>
+          <Info>
+            Reach out for <strong>legal advice</strong> or to consult the{' '}
+            <strong>best legal firm in Delhi</strong> for matters like{' '}
+            <strong>car accidents</strong>, <strong>child custody</strong>,{' '}
+            <strong>immigration issues</strong>, and more.
           </Info>
         </ContactDetails>
 
@@ -187,7 +197,7 @@ export default function ContactContent() {
       </TopSection>
 
       <FormWrapper>
-        <Subheading>Send Us a Message</Subheading>
+        <Subheading>Request Legal Help</Subheading>
         <Form onSubmit={(e) => e.preventDefault()}>
           <FieldGroup>
             <Label htmlFor='name'>Full Name</Label>
@@ -212,14 +222,14 @@ export default function ContactContent() {
             <Input
               type='text'
               id='subject'
-              placeholder='Reason for contacting'
+              placeholder='E.g. divorce consultation, injury claim...'
             />
           </FieldGroup>
           <FieldGroup>
             <Label htmlFor='message'>Message</Label>
             <TextArea
               id='message'
-              placeholder='Type your message here...'
+              placeholder='Briefly describe your legal concern...'
               required
             />
           </FieldGroup>

@@ -121,10 +121,13 @@ const Header = () => {
   return (
     <HeaderContainer>
       <LogoWrapper>
-        <Link href='/'>
+        <Link
+          href='/'
+          title='Best Legal Firm in Delhi - Justice & Law Services'
+        >
           <LogoImg
             src='/law-site-images/law-site-logo.jpg'
-            alt='Law Site Logo'
+            alt='Best Lawyer in Delhi - Justice Legal Logo'
           />
         </Link>
       </LogoWrapper>
@@ -135,16 +138,36 @@ const Header = () => {
 
       <Navigation ref={navRef} $isOpen={menuOpen}>
         <NavItem>
-          <StyledLink href='/'>Home</StyledLink>
+          <StyledLink
+            href='/'
+            title='Top Law Firm in Delhi – Legal Advice & Attorneys'
+          >
+            Home
+          </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink href='/about'>About Us</StyledLink>
+          <StyledLink
+            href='/about'
+            title='About Our Justice Team - Best Lawyers in Delhi'
+          >
+            About Us
+          </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink href='/services'>Services</StyledLink>
+          <StyledLink
+            href='/services'
+            title='Legal Services: Personal Injury Lawyer, Family Law, Estate Planning, Corporate Law'
+          >
+            Legal Services
+          </StyledLink>
         </NavItem>
         <NavItem>
-          <StyledLink href='/contact'>Contact Us</StyledLink>
+          <StyledLink
+            href='/contact'
+            title='Contact the Best Lawyer in Delhi – Get Legal Advice Today'
+          >
+            Contact a Lawyer
+          </StyledLink>
         </NavItem>
       </Navigation>
     </HeaderContainer>

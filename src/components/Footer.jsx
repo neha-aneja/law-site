@@ -92,26 +92,60 @@ const Footer = () => {
       <FooterNav>
         <NavLinks>
           <NavItem>
-            <StyledLink href='/about'>About Us</StyledLink>
+            <StyledLink
+              href='/about'
+              title='Learn about our top-rated attorneys near you offering expert legal advice in Delhi'
+            >
+              About Our Legal Firm in Delhi
+            </StyledLink>
           </NavItem>
+
           <NavItem>
-            <StyledLink href='/services'>Service Areas</StyledLink>
+            <StyledLink
+              href='/services'
+              title='Explore legal services including personal injury, family law, criminal defense, and estate planning'
+            >
+              Legal Services & Practice Areas
+            </StyledLink>
           </NavItem>
+
           <NavItem>
-            <StyledLink href='/contact'>Contact Us</StyledLink>
+            <StyledLink
+              href='/contact'
+              title='Contact our best lawyers in Delhi for legal advice and representation'
+            >
+              Contact Best Lawyers Near You
+            </StyledLink>
           </NavItem>
+
           <NavItem>
-            <StyledLink href='#'>Terms of Use</StyledLink>
+            <StyledLink
+              href='#'
+              title='Read our terms for using our legal services and resources'
+            >
+              Terms of Legal Use
+            </StyledLink>
           </NavItem>
+
           <NavItem>
-            <StyledLink href='#'>Privacy Policy</StyledLink>
+            <StyledLink
+              href='#'
+              title='Review our privacy policy to understand how we protect client data and legal confidentiality'
+            >
+              Privacy & Legal Confidentiality
+            </StyledLink>
           </NavItem>
         </NavLinks>
       </FooterNav>
 
       <Divider />
 
-      <Copyright>© 2025 Law & Justice – All rights reserved.</Copyright>
+      <Copyright>
+        © 2025 Law & Justice — Best legal firm in Delhi offering expert
+        services in personal injury law, criminal justice, family law, corporate
+        & business law, estate planning, immigration law, and more. Trusted
+        lawyers near you.
+      </Copyright>
     </FooterContainer>
   );
 };

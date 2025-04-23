@@ -77,21 +77,25 @@ export default function HomeContent() {
   return (
     <Container>
       <Section>
-        <Heading>Law & Justice Legal Firm</Heading>
+        <Heading>Best Legal Firm in Delhi – Law & Justice</Heading>
         <Paragraph>
-          Welcome to Law & Justice — a trusted legal partner for individuals and
-          businesses across Delhi. Whether you're facing a legal challenge or
-          need expert counsel, our experienced team is here to help.
+          Searching for the <strong>best lawyer in Delhi</strong>? At Law &
+          Justice, we provide expert legal representation in all areas including{' '}
+          <strong>family law</strong>, <strong>criminal justice</strong>, and{' '}
+          <strong>personal injury law</strong>. Our firm is known for delivering
+          clear, strategic, and results-driven legal support.
         </Paragraph>
         <Paragraph>
-          We pride ourselves on delivering strategic legal solutions with
-          clarity, confidence, and a commitment to justice. Our firm is built on
-          values of integrity, expertise, and client satisfaction.
+          As a trusted name among <strong>lawyers near me</strong>, we take
+          pride in being your go-to <strong>legal firm in Delhi</strong> for
+          professional, reliable, and compassionate legal services. From{' '}
+          <strong>divorce attorneys</strong> to <strong>estate planning</strong>{' '}
+          specialists, our lawyers cover every critical area of law.
         </Paragraph>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-banner-image.jpg'
-            alt='Professional law firm office'
+            alt='Professional law firm office in Delhi'
             width={1200}
             height={500}
             priority
@@ -100,22 +104,38 @@ export default function HomeContent() {
       </Section>
 
       <Section>
-        <Subheading>Our Legal Services</Subheading>
+        <Subheading>Comprehensive Legal Services</Subheading>
         <Paragraph>
-          We specialize in a broad spectrum of legal areas to support both
-          individuals and organizations:
+          We offer a wide array of legal services for individuals and
+          businesses:
         </Paragraph>
         <List>
-          <ListItem>Criminal Law & Defense Representation</ListItem>
-          <ListItem>Divorce, Custody & Family Disputes</ListItem>
-          <ListItem>Business & Corporate Legal Support</ListItem>
-          <ListItem>Real Estate & Property Conflict Resolution</ListItem>
-          <ListItem>Compensation & Injury Claims</ListItem>
+          <ListItem>
+            <strong>Personal injury lawyer near me</strong> for accident claims
+            and injury settlements
+          </ListItem>
+          <ListItem>
+            <strong>Divorce lawyers near me</strong> and{' '}
+            <strong>child custody lawyers</strong> for family law matters
+          </ListItem>
+          <ListItem>
+            <strong>Corporate & business law</strong> experts for legal
+            compliance and dispute resolution
+          </ListItem>
+          <ListItem>
+            <strong>Real estate lawyers</strong> and{' '}
+            <strong>property attorneys</strong> for conflict resolution
+          </ListItem>
+          <ListItem>
+            <strong>Immigration lawyers near me</strong> and{' '}
+            <strong>civil attorneys</strong> for legal consultation and case
+            representation
+          </ListItem>
         </List>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-service-image.jpg'
-            alt='Law firm services'
+            alt='Legal services including family, corporate, and injury law'
             width={1200}
             height={500}
           />
@@ -123,32 +143,45 @@ export default function HomeContent() {
       </Section>
 
       <Section>
-        <Subheading>Why Choose Law & Justice?</Subheading>
+        <Subheading>Why We're the Best Lawyers in Delhi</Subheading>
         <Paragraph>
-          Choosing the right legal team makes all the difference. Here’s what
-          sets us apart:
+          As one of the <strong>top-rated legal firms in Delhi</strong>, our
+          team of highly experienced <strong>criminal defense attorneys</strong>
+          , <strong>employment lawyers</strong>, and{' '}
+          <strong>family law attorneys</strong> provide unmatched legal
+          guidance. Here’s why clients trust us:
         </Paragraph>
         <List>
           <ListItem>
-            Client-focused approach with transparent communication
+            Client-first approach with transparent legal advice
           </ListItem>
-          <ListItem>Proven track record of favorable outcomes</ListItem>
-          <ListItem>Experienced advocates and legal advisors</ListItem>
-          <ListItem>Customized strategies tailored to each case</ListItem>
-          <ListItem>Reasonable fees with flexible payment options</ListItem>
+          <ListItem>
+            Strong success record in <strong>civil and criminal law</strong>
+          </ListItem>
+          <ListItem>
+            Dedicated <strong>personal injury attorneys</strong> and{' '}
+            <strong>car accident lawyers near me</strong>
+          </ListItem>
+          <ListItem>
+            Affordable services from experienced{' '}
+            <strong>divorce and tax attorneys</strong>
+          </ListItem>
+          <ListItem>Tailored strategies and seamless case handling</ListItem>
         </List>
       </Section>
 
       <Section>
-        <Subheading>What Our Clients Say</Subheading>
+        <Subheading>Client Testimonials</Subheading>
         <TestimonialBox>
-          “The team at Law & Justice handled my case with dedication and
-          attention to detail. Their support made all the difference.” –{' '}
+          “As someone looking for{' '}
+          <strong>personal injury lawyers near me</strong>, I couldn’t have
+          asked for better support. Law & Justice exceeded my expectations.” –{' '}
           <em>S. Arora</em>
         </TestimonialBox>
         <TestimonialBox>
-          “Thanks to their expertise, I was able to resolve a longstanding
-          property issue quickly. Highly professional.” – <em>M. Sharma</em>
+          “If you're looking for the{' '}
+          <strong>best divorce attorney near me</strong>, Law & Justice is the
+          firm to trust. Professional and efficient.” – <em>M. Sharma</em>
         </TestimonialBox>
       </Section>
     </Container>

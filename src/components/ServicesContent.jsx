@@ -70,26 +70,28 @@ const ImageWrapper = styled.div`
 export default function ServicesContent() {
   return (
     <Container>
-      <Heading>Our Legal Services</Heading>
+      <Heading>Top Legal Services by the Best Law Firm in Delhi</Heading>
 
       <Section>
         <TextContent>
-          <Subheading>Personal Injury</Subheading>
+          <Subheading>Personal Injury Law</Subheading>
           <Paragraph>
-            Accidents can change lives in seconds. Whether you've been injured
-            in a vehicle collision, slip and fall, or workplace incident, our
-            team ensures you get the compensation you deserve.
+            If you’re searching for a{' '}
+            <strong>personal injury lawyer near me</strong>, our team is here to
+            help. Whether it's a car crash, workplace accident, or a medical
+            negligence case, our experienced <strong>injury lawyers</strong>{' '}
+            fight for your rightful compensation.
           </Paragraph>
           <Paragraph>
-            We handle all aspects—from gathering evidence to negotiating with
-            insurance companies—so you can focus on recovery while we fight for
-            your justice.
+            As a recognized <strong>personal injury attorney</strong> team in
+            Delhi, we take on cases with integrity and deep commitment—handling
+            every detail from documentation to courtroom representation.
           </Paragraph>
         </TextContent>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-injury-image.jpg'
-            alt='Injury law services'
+            alt='Personal Injury Lawyer in Delhi'
             width={600}
             height={400}
             priority
@@ -99,21 +101,25 @@ export default function ServicesContent() {
 
       <Section reverse>
         <TextContent>
-          <Subheading>Family Law</Subheading>
+          <Subheading>Family Law & Divorce</Subheading>
           <Paragraph>
-            Navigating sensitive family matters like divorce, child custody, or
-            adoption requires legal expertise and compassion. We prioritize
-            emotional well-being while advocating for your rights.
+            Family disputes can be emotionally challenging. Whether you're
+            looking for <strong>divorce lawyers near me</strong>,{' '}
+            <strong>child custody lawyers</strong>, or a{' '}
+            <strong>family law attorney</strong>, our firm delivers clarity and
+            compassion.
           </Paragraph>
           <Paragraph>
-            Whether you're restructuring a family dynamic or starting a new
-            chapter, we provide clear legal guidance every step of the way.
+            We guide you through legal complexities—be it divorce, adoption, or
+            guardianship. Our lawyers provide trusted{' '}
+            <strong>family law</strong> support and help restructure your family
+            future with confidence.
           </Paragraph>
         </TextContent>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-family-image.jpg'
-            alt='Family legal support'
+            alt='Family Law and Divorce Attorneys in Delhi'
             width={600}
             height={400}
           />
@@ -124,19 +130,21 @@ export default function ServicesContent() {
         <TextContent>
           <Subheading>Corporate & Business Law</Subheading>
           <Paragraph>
-            From startups to seasoned enterprises, our corporate law services
-            include contract drafting, dispute resolution, IP protection, and
-            regulatory compliance.
+            Our experienced <strong>corporate & business law</strong> team
+            supports startups, SMEs, and enterprises. Services include contract
+            management, legal compliance, IP protection, and commercial dispute
+            resolution.
           </Paragraph>
           <Paragraph>
-            Our legal strategies help businesses grow securely while minimizing
-            risk and protecting long-term value.
+            If you're seeking a <strong>business attorney near me</strong>, we
+            deliver strategic legal advice to minimize risk, protect your
+            assets, and enhance long-term growth.
           </Paragraph>
         </TextContent>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-corporate-image.jpg'
-            alt='Corporate law advice'
+            alt='Corporate and Business Law Lawyers in Delhi'
             width={600}
             height={400}
           />
@@ -145,20 +153,23 @@ export default function ServicesContent() {
 
       <Section reverse>
         <TextContent>
-          <Subheading>Estate Planning</Subheading>
+          <Subheading>Estate Planning & Probate</Subheading>
           <Paragraph>
-            Secure your family’s future with customized estate planning services
-            including wills, trusts, powers of attorney, and probate navigation.
+            Secure your legacy with professional{' '}
+            <strong>estate planning</strong>. We help you draft wills, establish
+            trusts, handle powers of attorney, and smoothly navigate probate
+            issues.
           </Paragraph>
           <Paragraph>
-            We ensure your legacy is protected and your wishes are clearly
-            documented—offering peace of mind for you and your loved ones.
+            Whether you need a <strong>real estate attorney</strong> or{' '}
+            <strong>tax attorney</strong>, our expert legal advice ensures peace
+            of mind and protection of generational wealth.
           </Paragraph>
         </TextContent>
         <ImageWrapper>
           <Image
             src='/law-site-images/law-site-estate-image.jpg'
-            alt='Estate planning services'
+            alt='Estate Planning Lawyers in Delhi'
             width={600}
             height={400}
           />
